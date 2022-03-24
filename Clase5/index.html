@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Clase5</title>
+</head>
+<body>
+    <h1>CREAR CUENTA</h1>
+    <fieldset>
+        <legend>
+            Informaci&oacute;n personal
+        </legend>
+        <form action="Clase4/index.html" method="POST">
+            <table>
+                <tr>
+                    <td>
+                        <label>Nombre*</label><br>
+                        <input type="text" name="Nombre" placeholder="Gustavo">
+                    </td>
+                    <td>
+                        <label>Apellido*</label><br>
+                        <input type="text" name="Apellido" placeholder="Spada">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <lavel>Correo Electr&oacute;nico</lavel><br>
+                        <input type="text" name="email" placeholder="gustavo@gmail.com">
+                    </td>
+                </tr>
+                <tr>
+                    <td><br>
+                        <label>N° de DNI</label>
+                        <input type="text" name="DNI" placeholder="99999999">
+                    </td>
+                    <td><br>
+                        <label>Edad</label> 
+                        <input type="number" min="18" max="40">
+                    </td>
+                <tr>
+                    <td>
+                        <label>Tiene Hijos</label> 
+                        <input type="checkbox" name="th" value="SI">
+                    </td>    
+                </tr>    
+                <tr>
+                    <td>
+                        <label>Cuantos</label>
+                        <select>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="mas">3 o mas</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><br>
+                        <label>Está Casado?</label>
+                        <input type="radio" name="casado" value="SI" checked>
+                        <span>SI</span>
+                        <input type="radio" name="casado" value="NO">
+                        <span>NO</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td><br>
+                        <input type="submit" value="ENVIAR">
+                    </td>
+                </tr>
+            </table>
+            
+        </form>
+    </fieldset>
+</body>
+</html>
